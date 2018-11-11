@@ -1,5 +1,6 @@
 .SearchBox { 
   position: relative; 
+  margin: 2px;
 }
 
 .SearchBox input {
