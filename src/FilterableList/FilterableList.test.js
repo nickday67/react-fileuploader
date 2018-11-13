@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SearchBar from './SearchBar';
+import FilterableList from './FilterableList';
 
-describe('SearchBar', () => {
+describe('FilterableList', () => {
   it('should render without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<SearchBar />, div);
+    ReactDOM.render(<FilterableList />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
 });
